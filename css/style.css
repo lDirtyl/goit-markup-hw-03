@@ -73,6 +73,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .footer {
+	display: block;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	background-color: var(--navy-blue);
 }
 
@@ -81,6 +84,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .footer-text {
+	width: 264px;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
@@ -152,10 +156,13 @@ h1, h2, h3, h4, h5, h6, p {
 /*  main */
 
 .first-main {
+	padding: 188px;
 	background-color: var(--navy-blue);
+	text-align: center;
 }
 
 .title-main-page {
+	padding-bottom: 48px;
 	font-weight: 700;
 	font-size: 56px;
 	line-height: 1.1;
@@ -200,11 +207,19 @@ h1, h2, h3, h4, h5, h6, p {
 	overflow: hidden;
 	}
 
+.features-items {
+	display: flex;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	gap: 24px;
+}
+
 .features-title {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
+	padding-bottom: 8px;
 }
 
 .features-descr {
@@ -215,7 +230,8 @@ h1, h2, h3, h4, h5, h6, p {
 	color: var(--slate);
 }
 
-.specifications {
+.specifications-title {
+	padding-top: 120px;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.1;
@@ -224,16 +240,30 @@ h1, h2, h3, h4, h5, h6, p {
 	text-align: center;
 }
 
-.team {
+.specifications-items {
+	padding-top: 72px;
+	display: flex;
+	gap: 24px;
+}
+
+.team-title {
+	padding-top: 120px;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.1;
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
 	text-align: center;
+}
+
+.team-items {
+	display: flex;
+	margin-top: 72px;
+	gap: 24px;
 }
 
 .team-name {
+	padding-top: 32px;
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
@@ -242,6 +272,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .team-role {
+	padding-top: 8px;
+	padding-bottom: 32px;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;

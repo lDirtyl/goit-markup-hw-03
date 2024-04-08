@@ -26,6 +26,9 @@ img {
 	max-width: 100%;
 }
 
+a {
+	text-decoration: none;
+}
 
 address {
 	font-style: normal;
@@ -53,6 +56,13 @@ h1, h2, h3, h4, h5, h6, p {
 	margin-bottom: 0;
 }
 
+.container { 
+	max-width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: 141px;
+	margin-right: 141px;
+	}
 
 /* index.html */
 
@@ -64,15 +74,14 @@ h1, h2, h3, h4, h5, h6, p {
 	line-height: 1.2;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	text-decoration: none;
 	color: var(--iris);
 }
 
-.color {
+.logo-part {
 	color: var(--navy-blue);
 }
 
-.footer-color {
+.footer-logo-part {
 	color: var(--cloud);
 }
 
@@ -91,7 +100,6 @@ h1, h2, h3, h4, h5, h6, p {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
-	text-decoration: none;
 	color: var(--navy-blue);
 }
 
@@ -101,12 +109,10 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .address-link {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	text-transform: lowercase;
-	text-decoration: none;
 	color: var(--slate);
 }
 
@@ -228,10 +234,6 @@ h1, h2, h3, h4, h5, h6, p {
 	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
 	background: var(--ocean);
 	color: var(--white);
-}
-
-.portflio-link {
-	text-decoration: none;
 }
 
 .item-title {

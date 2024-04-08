@@ -15,16 +15,16 @@
 	--second-family: "Raleway", sans-serif;
 }
 
-/* *,
+*,
 *::before,
 *::after {
   box-sizing: border-box;
-} */
+}
 
-/* img {
+img {
 	display: block;
 	max-width: 100%;
-} */
+}
 
 
 address {
@@ -40,7 +40,14 @@ footer {
 	background-color: var(--navy-blue);
 }
 
-.logo, .footer-logo {
+ul, ol {
+	list-style-type: none;
+}
+
+/* index.html */
+
+/* logo and footer  */
+.logo {
 	font-family: var(--second-family);
 	font-weight: 800;
 	font-size: 18px;
@@ -51,7 +58,7 @@ footer {
 	color: var(--iris);
 }
 
-.logo .color {
+.color {
 	color: var(--navy-blue);
 }
 
@@ -59,10 +66,14 @@ footer {
 	color: var(--cloud);
 }
 
-.nav-list, 
-.address-list {
-	list-style-type: none;
+.footer-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--cloud);
 }
+/* header */
 
 .nav-link {
 	font-weight: 500;
@@ -72,7 +83,7 @@ footer {
 	text-transform: capitalize;
 	text-decoration: none;
 	color: var(--navy-blue);
-	}
+}
 
 .nav-link:hover,
 .nav-link:focus {
@@ -93,6 +104,8 @@ footer {
 .address-link:focus {
 	color: var(--iris);
 }
+
+/*  main */
 
 .first-main {
 	background-color: var(--navy-blue);
@@ -122,16 +135,12 @@ footer {
 	font-size: 15px;
 	line-height: 1.5;
 	letter-spacing: 0.04em;
-	color: var(--white);
+	color: var(--white);	
 }
 
 .order-btn:hover,
 .order-btn:focus {
 	background: var(--ocean);
-}
-
-.features {
-	list-style-type: none;
 }
 
 .features-title {
@@ -158,10 +167,6 @@ footer {
 	text-align: center;
 }
 
-.specifications-list {
-	list-style-type: none;
-}
-
 .team {
 	font-weight: 700;
 	font-size: 36px;
@@ -169,10 +174,6 @@ footer {
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
 	text-align: center;
-}
-
-.team-list {
-	list-style-type: none;
 }
 
 .team-name {
@@ -192,9 +193,7 @@ footer {
 	color: var(--slate);
 }
 
-.filter-list{
-	list-style-type: none;
-}
+/* portfolio */
 
 .filter-btn {
 	/* button */
@@ -211,7 +210,7 @@ footer {
 	line-height: 1.6;
 	letter-spacing: 0.04em;
 	text-align: center;
-	color: var(--iris);
+	color: var(--iris);	
 }
 
 .filter-btn:hover,
@@ -223,10 +222,6 @@ footer {
 
 .portflio-link {
 	text-decoration: none;
-}
-
-.portfolio-items {
-	list-style-type: none;
 }
 
 .item-title {
@@ -243,13 +238,4 @@ footer {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--slate);
-}
-
-
-.footer-text {
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
-	color: var(--cloud);
 }

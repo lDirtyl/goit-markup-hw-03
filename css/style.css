@@ -208,11 +208,15 @@ h1, h2, h3, h4, h5, h6, p {
 	overflow: hidden;
 	}
 
-.features-items {
+.features-list {
 	display: flex;
 	padding-top: 120px;
 	padding-bottom: 120px;
 	gap: 24px;
+}
+
+.features-item {
+	flex-basis: calc(100% - 24px / 4);
 }
 
 .features-title {
@@ -245,10 +249,14 @@ h1, h2, h3, h4, h5, h6, p {
 	text-align: center;
 }
 
-.specifications-items {
+.specifications-list {
 	padding-top: 72px;
 	display: flex;
 	gap: 24px;
+}
+
+.specifications-item {
+	flex-basis: calc(100% - 24px / 3);
 }
 
 .team {
@@ -269,10 +277,14 @@ h1, h2, h3, h4, h5, h6, p {
 	text-align: center;
 }
 
-.team-items {
+.team-list {
 	display: flex;
 	margin-top: 72px;
 	gap: 24px;
+}
+
+.team-item {
+	flex-basis: calc(100% - 24px / 4);
 }
 
 .team-name {

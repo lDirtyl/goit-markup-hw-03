@@ -72,11 +72,25 @@ h1, h2, h3, h4, h5, h6, p {
 	color: var(--navy-blue);
 }
 
+.container-footer {
+	padding: 100px 0;
+}
+
 .footer {
 	display: block;
-	padding-top: 100px;
-	padding-bottom: 100px;
 	background-color: var(--navy-blue);
+}
+
+.footer-logo {
+	display: inline-block;
+	margin-bottom: 16px;
+	font-family: var(--second-family);
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--iris);
 }
 
 .footer-logo-part {
@@ -84,7 +98,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .footer-text {
-	padding-top: 16px;
 	width: 264px;
 	font-weight: 400;
 	font-size: 16px;
@@ -157,13 +170,16 @@ h1, h2, h3, h4, h5, h6, p {
 /*  main */
 
 .first-main {
-	padding: 188px;
+	padding: 188px 0;
 	background-color: var(--navy-blue);
 	text-align: center;
 }
 
 .title-main-page {
-	padding-bottom: 48px;
+	margin-bottom: 48px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 498px;
 	font-weight: 700;
 	font-size: 56px;
 	line-height: 1.1;
@@ -174,6 +190,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .order-btn {
 	/* button */
+	border: none;
 	border-radius: 4px;
 	padding: 16px 32px;
 	width: 169px;
@@ -208,10 +225,12 @@ h1, h2, h3, h4, h5, h6, p {
 	overflow: hidden;
 	}
 
+.features {
+	padding: 120px 0;
+}
+
 .features-list {
 	display: flex;
-	padding-top: 120px;
-	padding-bottom: 120px;
 	gap: 24px;
 }
 
@@ -224,7 +243,7 @@ h1, h2, h3, h4, h5, h6, p {
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
-	padding-bottom: 8px;
+	margin-bottom: 8px;
 }
 
 .features-descr {
@@ -240,7 +259,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .specifications-title {
-	padding-top: 120px;
+	padding-bottom: 120px;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.1;
@@ -250,7 +269,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .specifications-list {
-	padding-top: 72px;
 	display: flex;
 	gap: 24px;
 }
@@ -264,11 +282,11 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .container-team {
-	padding-bottom: 120px;
+	padding: 120px 0;
 }
 
 .team-title {
-	padding-top: 120px;
+	padding-bottom: 72px;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.1;
@@ -279,16 +297,28 @@ h1, h2, h3, h4, h5, h6, p {
 
 .team-list {
 	display: flex;
-	margin-top: 72px;
+
 	gap: 24px;
 }
 
 .team-item {
 	flex-basis: calc(100% - 24px / 4);
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 32px;
+	border-radius: 0px 0px 4px 4px;
+	background: var(--WHITE, #FFF);
+	box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+}
+
+.team-card {
+	padding: 32px 0;
 }
 
 .team-name {
-	padding-top: 32px;
+	padding-bottom: 8px;
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
@@ -297,8 +327,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .team-role {
-	padding-top: 8px;
-	padding-bottom: 32px;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;

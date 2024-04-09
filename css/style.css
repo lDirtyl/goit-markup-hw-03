@@ -72,13 +72,10 @@ h1, h2, h3, h4, h5, h6, p {
 	color: var(--navy-blue);
 }
 
-.container-footer {
-	padding: 100px 0;
-}
-
 .footer {
 	display: block;
 	background-color: var(--navy-blue);
+	padding: 100px 0;
 }
 
 .footer-logo {
@@ -259,7 +256,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .specifications-title {
-	padding-bottom: 120px;
+	margin-bottom: 72px;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.1;
@@ -279,9 +276,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 .team {
 	background: var(--CLOUD, #F4F4FD);
-}
-
-.container-team {
 	padding: 120px 0;
 }
 
@@ -302,11 +296,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 .team-item {
 	flex-basis: calc(100% - 24px / 4);
-	display: inline-flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 32px;
 	border-radius: 0px 0px 4px 4px;
 	background: var(--WHITE, #FFF);
 	box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
@@ -336,7 +325,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* portfolio */
 
-.container-portfolio {
+.filter {
 	margin-top: 96px;
 	margin-bottom: 120px;
 }
@@ -398,7 +387,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .item-descr {
-	margin: 32px 16px;
+	padding: 32px 16px;
+	border: 1px solid var(--CORNFLOWER, #E7E9FC);
+	background: var(--WHITE, #FFF);
 }
 
 .item-title {
@@ -407,7 +398,7 @@ h1, h2, h3, h4, h5, h6, p {
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: var(--navy-blue);
-	padding-bottom: 8px;
+	margin-bottom: 8px;
 }
 
 .item-subtitle {

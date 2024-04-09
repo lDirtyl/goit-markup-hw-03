@@ -286,7 +286,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .team-title {
-	padding-bottom: 72px;
+	margin-bottom: 72px;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.1;
@@ -297,7 +297,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 .team-list {
 	display: flex;
-
 	gap: 24px;
 }
 
@@ -318,7 +317,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .team-name {
-	padding-bottom: 8px;
+	margin-bottom: 8px;
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
@@ -336,6 +335,25 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 /* portfolio */
+
+.container-portfolio {
+	margin-top: 96px;
+	margin-bottom: 120px;
+}
+
+.filter-list {
+	display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    margin-bottom: 72px;
+    flex-wrap: nowrap;
+    justify-content: center;
+	margin-bottom: 72px;
+
+}
+
+.filter-item {
+}
 
 .filter-btn {
 	/* button */
@@ -362,12 +380,34 @@ h1, h2, h3, h4, h5, h6, p {
 	color: var(--white);
 }
 
+.portfolio-list {
+	display: flex;
+	gap: 24px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.portfolio-item {
+	margin-bottom: 24px;
+}
+
+.portflio-item-link {
+}
+
+.item-descr {
+	margin: 32px 16px;
+}
+
 .item-title {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: var(--navy-blue);
+	padding-bottom: 8px;
 }
 
 .item-subtitle {
